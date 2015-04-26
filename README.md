@@ -9,7 +9,7 @@ Example
 =======
 
 * function recaptcha_display()
-```
+```php
     <?php include('nocaptcha-recaptcha.php'); ?>
     <form action="?" method="post">
     <?php echo recaptcha_display(); ?>
@@ -18,7 +18,7 @@ Example
 ```
 
 * function recaptcha_vertify($response)
-```
+```php
     <?php
     include('nocaptcha-recaptcha.php');
     $response = $_POST['g-recaptcha-response'];
